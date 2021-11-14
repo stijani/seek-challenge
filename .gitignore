@@ -1,3 +1,10 @@
+# user
+ads-50k-events.csv
+ads-50k.json
+mlp_model.h5
+**/data
+**/powerpoint-slides
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
