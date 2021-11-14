@@ -1,7 +1,7 @@
 # Recruitment Challenge - Data Scientist
-### This repository contains my solution to the take home challenge from Seek. I used logistic regression and an MLP model to classify jobs into categories (sector) using the job advert data set. I splitted the data into two parts, one that contained the `content` field and one that excluded it. Seperate models were built on each data split (see notebook descriptions below). 
+**This repository contains my solution to the take home challenge from Seek. I used logistic regression and an MLP model to classify jobs into categories (sector) using the job advert data set. I splitted the data into two parts, one that contained the `content` field and one that excluded it. Seperate models were built on each data split (see notebook descriptions below).**
 
-### The idea is that once a job poster enters the abstract text of a job, an ML generated job category is suggested to them. Also, after completing the content section, the category is updated by a more accurate ML model.
+**The idea is that once a job poster enters the abstract text of a job, an ML generated job category is suggested to them. Also, after completing the content section, the category is updated by a more accurate ML model.**
 
 
 **Files and directories:**
