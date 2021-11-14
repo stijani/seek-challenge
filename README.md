@@ -1,5 +1,5 @@
 # Recruitment Challeng - Data Scientist
-This repository contains my solution to the take home challenge from seek.
+###This repository contains my solution to the take home challenge from seek.
 
 `./notebooks`: Contains notebooks used for running code and explaining though process
 - `data-cleaning-and-preprocessing.ipynb` -> used for data cleaning and processing. The resulting dataframes where store in `./data/processed`
