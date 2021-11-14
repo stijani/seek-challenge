@@ -1,7 +1,7 @@
 # Recruitment Challeng - Data Scientist
 ### This repository contains my solution to the take home challenge from seek.
 
-
+**Files and directories:**
 `./notebooks`: Contains notebooks used for running code and explaining though process
 - `data-cleaning-and-preprocessing.ipynb` -> used for data cleaning and processing. The resulting dataframes where store in `./data/processed`
 - `modelling-data-excluding-content-field.ipynb` -> Used to train an MLP and logistic regression model on the Job advert data set. The modelling in this notebook exludes the `content` variable (a child element of the `metedata` column) in the original data.
