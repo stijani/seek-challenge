@@ -6,7 +6,7 @@
 **PS: I pruned the number of classes to 12 rather than 30 in the raw data set. This was done to avoid potential model skewness from class inbalance. The code could easily be extended to include all classes once more data have been added to improve the coverage of the minority categories.**
 
 
-### Files and directories:
+## Files and directories:
 
 `./notebooks`: Contains notebooks used for running code and explaining thought process.
 - `data-cleaning-and-preprocessing.ipynb` -> used for data cleaning and processing. The resulting dataframes where store in `./data/processed`
