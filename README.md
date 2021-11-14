@@ -12,7 +12,7 @@
 - `modelling-data-excluding-content-field.ipynb` -> does the same as the prior file but its analysis and modelling included the `content` variable.
 - `event-data-exploration.ipynb` -> explores and visualises the event data set
 
-`./data`: Contains both the raw and process data. Please get the data from https://drive.google.com/drive/folders/1hSuRyqoNWQqmUBCgu6rrkhvWgd4CO9XH?usp=sharing
+`./data`: Contains both the raw and process data. Please get the data files from: https://drive.google.com/drive/folders/1hSuRyqoNWQqmUBCgu6rrkhvWgd4CO9XH?usp=sharing
 
 `./src`: Contains all source files
 
