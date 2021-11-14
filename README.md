@@ -3,6 +3,8 @@
 
 **The idea is that once a job poster enters the abstract text for a job, an ML generated job category is suggested to them. Also, after completing the content section, the category is updated by a more accurate ML model.**
 
+**PS: I pruned the number of classes to 12 rather than 30 in the raw data set. This was done to avoid potential model skewness from class inbalance. The code could easily be extended to include all classes once more data have been added to improve the coverage of the minority categories.**
+
 
 **Files and directories:**
 
