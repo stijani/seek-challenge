@@ -9,22 +9,22 @@
 ## Files and directories:
 
 `./notebooks`: Contains notebooks used for running code and explaining thought process.
-- `data-cleaning-and-preprocessing.ipynb` -> used for data cleaning and processing. The resulting dataframes where store in `./data/processed`
-- `modelling-data-excluding-content-field.ipynb` -> Used to train an MLP and logistic regression model on the Job advert data set. The modelling in this notebook exludes the `content` variable (a child element of the `metedata` column) in the original data.
-- `modelling-data-excluding-content-field.ipynb` -> does the same as the prior file but its analysis and modelling included the `content` variable.
+- `data-cleaning-and-preprocessing.ipynb` -> Used for data cleaning and processing. The resulting dataframes were stored in `./data/processed`
+- `modelling-data-excluding-content-field.ipynb` -> Used to train an MLP and logistic regression models on the job advert data set. The modelling in this notebook exludes the `content` field (a child element of the `metedata` column) in the original data.
+- `modelling-data-excluding-content-field.ipynb` -> Does the same as the prior file but its analysis and modelling included the `content` variable.
 - `event-data-exploration.ipynb` -> explores and visualises the event data set
 
-`./data`: Contains both the raw and process data. Please get the data files from: https://drive.google.com/drive/folders/1hSuRyqoNWQqmUBCgu6rrkhvWgd4CO9XH?usp=sharing
+`./data`: Contains both the raw and processed data. Please get the data files from: https://drive.google.com/drive/folders/1hSuRyqoNWQqmUBCgu6rrkhvWgd4CO9XH?usp=sharing
 
 `./src`: Contains all source files
 
-- `models.py` -> mlp model implementation 
-- `vectorizer.py` -> tfidf vectorization implementation
+- `models.py` -> mlp model implementation in tensorflow
+- `vectorizer.py` -> tfidf vectorization implementation (SKlearn)
 - `helpers` -> helper functions for data cleaning, visualization e.t.c
-- `constants` -> contains all macros variable
+- `constants` -> contains all macro variables
 
-`./saved_models` -> Contains models saves as .h5 files
+`./saved_models` -> Contains models saved as .h5 files
 
-`./powerpoint-slides` -> Contains the final power power point slides. please get the powerpoint file from: https://docs.google.com/presentation/d/1iK6kIoMaVVgsJsPZSMADwNK_Ul0HgGRr/edit?usp=sharing&ouid=103754789475705413599&rtpof=true&sd=true
+`./powerpoint-slides` -> Contains the final power point slides. please get the powerpoint file from: https://docs.google.com/presentation/d/1iK6kIoMaVVgsJsPZSMADwNK_Ul0HgGRr/edit?usp=sharing&ouid=103754789475705413599&rtpof=true&sd=true
 
 
